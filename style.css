@@ -69,7 +69,7 @@ header nav ul li{
 
 /*----------------Home-----------*/
 #home{
-  background: url(landing.jpg);
+  background: url(Ressource/landing.jpg);
   background-position: center center;
   background-size: cover;
 background-attachment: fixed;
