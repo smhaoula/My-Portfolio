@@ -66,7 +66,7 @@ position: fixed;
   opacity: 1;
 }
 #logo img:hover{
-  opacity: 0,1;
+  opacity: 100%;
 }
 
                 /*Menu---------------------*/
@@ -99,7 +99,7 @@ background-attachment: fixed;
 
   width: 32px;
   margin-top: 150px;
-  opacity: 0,7;
+  opacity: 70%;
 }
 #home img:hover{
   opacity: 1;
@@ -182,3 +182,4 @@ footer p{
   color: #f0f0f0;
   padding-top: 15px;
 }
+/*  Responsive */
