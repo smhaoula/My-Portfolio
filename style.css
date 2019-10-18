@@ -7,6 +7,13 @@ h1,h2,h3,a{
   font-weight: 500;
   color: #494949;
   text-transform: uppercase;
+  text-align: center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 h2{
   color: #5d7177;
@@ -15,8 +22,13 @@ h3{
   font-size: 40px;
   padding-top: 8%;
   margin-bottom: 5px;
+  margin-right: 200px;
+
 }
-h4,p{
+h4{
+  text-align: center;
+}
+p{
   font-family: "Roboto", sans-serif;
   color: #494949;
 }
