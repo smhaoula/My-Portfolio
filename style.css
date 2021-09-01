@@ -81,7 +81,7 @@ header nav ul li{
 
 /*----------------Home-----------*/
 #home{
-  background: url(Ressource\Computer-WallPaper.jpg);
+  background: url(Ressource/wallpaper.png);
   background-position: center center;
   background-size: cover;
 background-attachment: fixed;
@@ -112,7 +112,6 @@ background-attachment: fixed;
   }
   #About img{
     width: 240px;
-    height: 500px;
   }
   #About img:hover{
     transform: scale(1.1);
