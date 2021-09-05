@@ -31,6 +31,7 @@ h4{
 p{
   font-family: "Roboto", sans-serif;
   color: #494949;
+  font-size: 20PX;
 }
 hr{
   width: 30px;
@@ -80,12 +81,15 @@ header nav ul li{
 }
 
 /*----------------Home-----------*/
-#home{
-  background: url(Ressource/wallpaper.png);
+#home {
+  background: url(Ressource/newwall.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
   background-position: center center;
-  background-size: cover;
+background-size: cover;
 background-attachment: fixed;
 }
+
   #home h1{
     margin: 240px  auto 0 auto;
     font-size: 110px;
@@ -94,7 +98,10 @@ background-attachment: fixed;
   #home h2{
     margin: 0 auto 0 auto;
     font-size: 25px;
+    color: white;
+    font-size: 30px;
   }
+
 #home img{
 
   width: 32px;
@@ -111,7 +118,11 @@ background-attachment: fixed;
   margin: 0 auto 0 auto;
   }
   #About img{
-    width: 240px;
+    border-radius: 50%;
+             overflow: hidden;
+             width: 150px;
+             height: 150px;
+    width: 150px;
   }
   #About img:hover{
     transform: scale(1.1);
